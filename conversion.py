@@ -1,7 +1,6 @@
-import pyarrow as pa
-import pyarrow.parquet as pq
+#import pyarrow as pa
+#import pyarrow.parquet as pq
 import pandas as pd
-import numpy as np
 
 def DF_to_CSV(rs, name):
     df = pd.DataFrame(rs)
